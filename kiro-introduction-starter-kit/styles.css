@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  background: #0f0f1a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+canvas {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  box-shadow: 0 0 0 3px #3a3a5e, 0 6px 32px rgba(0,0,0,0.7);
+}

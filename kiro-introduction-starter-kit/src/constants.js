@@ -1,0 +1,14 @@
+export const CANVAS_WIDTH = 800;
+export const CANVAS_HEIGHT = 600;
+export const GRAVITY = 980;
+export const FLAP_IMPULSE = -320;
+export const GHOST_SIZE = 32;
+export const GHOST_X = 120;
+export const PIPE_WIDTH = 52;
+export const PIPE_CAP_HEIGHT = 20;
+export const GAP_HEIGHT = 150;
+export const PIPE_SPEED = 180;
+export const PIPE_SPACING = 220;
+export const FOOTER_HEIGHT = 40;
+export const MIN_PIPE_Y = 80;
+export const MAX_PIPE_Y = CANVAS_HEIGHT - FOOTER_HEIGHT - 80;
